@@ -1,9 +1,84 @@
-<!DOCTYPE>
+<!DOCTYPE HTML>
 <html>
 <head>
-<title>En construccti&oacute;n</title>
+<meta charset="utf-8">
+<base href="http://www.marijazaric.com/coffee-house-theme/" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coffee house theme - Home</title>
+
+<!-- Core Bootstrap CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main CSS -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Animate CSS -->
+<link href="css/animate.css" rel="stylesheet">
+
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300' rel='stylesheet' type='text/css'>
+
+<!-- Font Awesome -->
+<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+
 </head>
-<bodyd>
-<p>Este sitio esta en construccti&oacute;n</p>
+<body>
+    <!-- header -->
+	<div class="banner">
+		<div class="container">
+			<div class="head-nav">
+				<span class="menu"></span>
+					 <ul>
+                     	<li><a href="index.html" class="current">Inicio</a></li>
+						<li><a href="our-story.html">Nuestra historia</a></li>
+						<li><a href="menu.html">menu</a></li>
+                        <li><a href="gallery.html">Galeria</a></li>
+                        <li><a href="news.html">Noticias</a></li>
+						<li><a href="contact.html">Contactenos</a></li>
+					 </ul>
+			 </div>
+			 <!-- script-for-nav -->
+			 <script>
+					$( "span.menu" ).click(function() {
+					$( ".head-nav ul" ).slideToggle(300, function() {
+					});
+					});
+			 </script>
+             <!-- logo -->
+			 <div class="logo wow fadeIn">
+				<a href="#">
+                <img src="images/logo.png" alt="logo"></a>
+			 </div>
+             <!-- info -->
+			 <div class="banner-info wow fadeIn">
+                  <h1>Drink different, </h1>
+                  <h1>Think different.</h1>
+                  <a href="menu.html" class="btn main-btn">Nuestros Productos</a>
+                  <div class="sociallist-home">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+                  <a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+                  </div>
+			 </div>
+		</div>
+	</div>
+    <!-- /header -->
+    
+
+   <!-- Core Boostrap JS -->
+   <script src="js/bootstrap.min.js"></script>
+  
+   <!-- Wow JavaScript -->
+   <script src="js/wow.js"></script>
+    
+   <script>
+  new WOW().init();
+  </script>
+
+
 </body>
 </html>
